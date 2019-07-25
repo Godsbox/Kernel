@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用栏样式 -->
+    <style name="AppBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:id">@id/appbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/appbar_height</item>
+        <item name="android:background">@color/toolbar_bg_color</item>
+        <item name="android:maxHeight">@dimen/appbar_height</item>
+        <item name="android:minHeight">@dimen/appbar_height</item>
+        <item name="titleTextAppearance">@style/AppBar.Title</item>
+    </style>
+
+    <!-- 应用栏标题样式 -->
+    <style name="AppBar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/toolbar_text_color</item>
+    </style>
+
+    <!-- 应用栏样式 -->
+    <style name="AppBarBlack" parent="Widget.AppCompat.Toolbar">
+        <item name="android:id">@id/appbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/appbar_height</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:maxHeight">@dimen/appbar_height</item>
+        <item name="android:minHeight">@dimen/appbar_height</item>
+        <item name="titleTextAppearance">@style/AppBarBlack.Title</item>
+    </style>
+
+    <!-- 应用栏标题样式 -->
+    <style name="AppBarBlack.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/font_black_little</item>
+    </style>
+
+    <!-- 日历周标题样式 -->
+    <style name="MaterialCalendarView.Week.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/font_black</item>
+    </style>
+</resources>

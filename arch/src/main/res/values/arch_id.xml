@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="fragment_container" />
+    <item type="id" name="pager" />
+    <item type="id" name="appbar" />
+    <item type="id" name="tab_layout" />
+
+    <item type="id" name="refresh_layout" />
+    <item type="id" name="loading" />
+    <item type="id" name="load_view_start" />
+    <item type="id" name="load_view_empty" />
+    <item type="id" name="load_view_failure" />
+    <item type="id" name="load_view_container" />
+    <item type="id" name="go" />
+    <item type="id" name="reload" />
+    <item type="id" name="title" />
+    <item type="id" name="content" />
+    <item type="id" name="ignore" />
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font">#999999</color>
+    <color name="font_dark">#666666</color>
+    <color name="font_black_deep">#333333</color>
+    <color name="font_gray">#B6BEC2</color>
+    <color name="font_black">#4d4d4d</color>
+    <color name="font_black_little">#4c4c4c</color>
+    <color name="font_gray_fans">#AAADB3</color>
+
+    <color name="black">#000</color>
+    <color name="red">#F46060</color>
+    <color name="white">#fff</color>
+    <color name="white_pressed">#F7F7F7</color>
+    <color name="white_70">#b3ffffff</color>
+    <color name="gray_818e99">#818e99</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="blue">#2196f3</color>
+    <color name="yellow">#ffff8d</color>
+
+    <color name="main_color">#3DC4CC</color>
+    <color name="author_flag">@color/main_color</color>
+    <color name="primary">@color/main_color</color>
+    <color name="primary_pressed">#B33DC4CC</color>
+
+    <color name="toolbar_bg_color">#ffffff</color>
+    <color name="toolbar_text_color">#4d4d4d</color>
+    <color name="tab_text_color">#4d4d4d</color>
+    <color name="tab_text_selected_color">@color/main_color</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="divider_dark">#CCCCCC</color>
+    <color name="window">#f7f7fc</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_height">48dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="radius_round">3dp</dimen>
+    <dimen name="radius_ellipse">20dp</dimen>
+
+    <dimen name="item_divider">8dp</dimen>
+    <dimen name="item_vertical">9dp</dimen>
+    <dimen name="item_horizontal">16dp</dimen>
+    <dimen name="gap">12dp</dimen>
+</resources>

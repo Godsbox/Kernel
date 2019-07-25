@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 固定像素图片视图属性 -->
+    <declare-styleable name="FixedPixelImageView">
+        <attr name="fixedWidth" format="integer" />
+        <attr name="fixedHeight" format="integer" />
+        <attr name="widthCharge" format="boolean" />
+    </declare-styleable>
+
+    <!-- 回复视图属性 -->
+    <declare-styleable name="ReplyTextView">
+        <attr name="nicknameColor" format="color" />
+        <attr name="pressedBackgroundColor" format="color" />
+        <attr name="replyColor" format="color" />
+        <attr name="replyText" format="string" />
+    </declare-styleable>
+
+    <!-- 下拉式菜单视图属性 -->
+    <declare-styleable name="DropDownMenu">
+        <attr name="underlineColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="textSelectedColor" format="color"/>
+        <attr name="textUnselectedColor" format="color"/>
+        <attr name="menuBackgroundColor" format="color"/>
+        <attr name="maskColor" format="color"/>
+        <attr name="menuTextSize" format="dimension"/>
+        <attr name="tabHeight" format="dimension"/>
+        <attr name="menuSelectedIcon" format="reference"/>
+        <attr name="menuUnselectedIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- 加载容器视图属性 -->
+    <declare-styleable name="LoadViewContainer">
+        <attr name="loadViewIndex" format="integer"/>
+    </declare-styleable>
+
+    <!-- 比例图片视图属性 -->
+    <declare-styleable name="RatioImageView">
+        <attr name="imageRatio" format="float"/>
+        <attr name="imageRoundRadius" format="integer"/>
+    </declare-styleable>
+
+    <!-- 文本图片视图属性 -->
+    <declare-styleable name="ImageTextView">
+        <attr name="leftSrc" format="integer"/>
+        <attr name="rightSrc" format="integer"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="rmtMoreText" format="string"/>
+        <attr name="rmtMoreColor" format="color"/>
+        <attr name="rmtLessText" format="string"/>
+        <attr name="rmtLessColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="BannerIndicatorView">
+        <attr name="app_cell_radius" format="dimension"></attr>
+        <attr name="app_cell_margin" format="dimension"></attr>
+        <attr name="app_cell_count" format="integer"></attr>
+        <attr name="app_current_position" format="integer"></attr>
+        <attr name="app_selected_color" format="color|reference"></attr>
+        <attr name="app_normal_color" format="color|reference"></attr>
+        <attr name="app_indicator_style" format="enum">
+            <enum name="ELLIPSE" value="0"></enum>
+            <enum name="RECT" value="1"></enum>
+            <enum name="CIRCLE" value="2"></enum>
+        </attr>
+    </declare-styleable>
+
+</resources>

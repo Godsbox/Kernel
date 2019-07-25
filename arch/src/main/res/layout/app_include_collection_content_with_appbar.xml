@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/app_fragment_collection_with_appbar"
+    >
+    <android.support.v7.widget.Toolbar
+        style="@style/AppBar"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/window"
+        style="@style/SwipeRefreshLayout"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</merge>

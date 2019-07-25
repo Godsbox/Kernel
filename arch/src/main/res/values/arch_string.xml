@@ -1,0 +1,31 @@
+<resources>
+    <string name="loading_efforts">正在加载</string>
+    <string name="no_data_message">还没有数据哦</string>
+    <string name="reload">重新加载</string>
+    <string name="content_load_failure_message">请先检查网络，稍后重新加载哦</string>
+    <string name="content_load_failure_title">内容加载失败</string>
+
+    <string name="blank">&#160;&#160;</string>
+    <string name="blank_word">白</string>
+
+    <string name="http_code_no_network">当前网络不给力，请检查网络设置</string>
+    <string name="http_code_timeout">抱歉，网络请求超时，稍后试试哦~</string>
+    <string name="http_code_3">抱歉，找不到服务器哥，稍后试试哦~</string>
+    <string name="http_code_not_found">抱歉，我们找不到你要的东东了~</string>
+    <string name="http_code_server_error">抱歉，服务器哥不小心出错了~(code: %1$s)</string>
+    <string name="http_code_unknown">抱歉，发生未知错误~(code: %1$s)</string>
+
+    <string name="pull_up_to_load_more">上拉加载更多</string>
+    <string name="load_more_empty">没有更多了</string>
+
+    <string name="length_counter">%1$d / %2$d</string>
+    <string name="length_counter_over">&lt;font color=\'#ff4444\'&gt;%1$s&lt;/font&gt; / %2$s</string>
+    <string name="emoji_not_supported_yet">暂时还不支持输入法表情哦~</string>
+
+    <string name="bracketed_author">(作者)</string>
+    <string name="copy_empty">复制内容为空~</string>
+
+    <!-- 文字后面三个是占位符 -->
+    <string name="expand">展开</string>
+    <string name="retract">&#160;&#160;&#160;收起&#160;&#160;&#160;</string>
+</resources>
